@@ -1,0 +1,1211 @@
+{
+  "device": {
+    "name": "ZMK Keyboard"
+  },
+  "layers": [
+    {
+      "id": 0,
+      "name": "Layer 0",
+      "index": 0,
+      "bindings": [
+        {
+          "position": 0,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 41, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 1,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 20, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 2,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 26, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 3,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 8, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 4,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 21, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 5,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 23, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 6,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 28, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 7,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 24, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 8,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 12, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 9,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 18, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 10,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 19, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 11,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 41, modifiers: 0 }, tap: HidUsage { page: 7, id: 49, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 12,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 43, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 13,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 227, modifiers: 0 }, tap: HidUsage { page: 7, id: 4, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 14,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 226, modifiers: 0 }, tap: HidUsage { page: 7, id: 22, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 15,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 225, modifiers: 0 }, tap: HidUsage { page: 7, id: 7, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 16,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 224, modifiers: 0 }, tap: HidUsage { page: 7, id: 9, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 17,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 10, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 18,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 11, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 19,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 228, modifiers: 0 }, tap: HidUsage { page: 7, id: 13, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 20,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 229, modifiers: 0 }, tap: HidUsage { page: 7, id: 14, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 21,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ModTap { hold: HidUsage { page: 7, id: 230, modifiers: 0 }, tap: HidUsage { page: 7, id: 15, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 22,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(LayerTap { layer_id: 1, tap: HidUsage { page: 7, id: 51, modifiers: 0 } })"
+          }
+        },
+        {
+          "position": 23,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 52, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 24,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 225, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 25,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 29, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 26,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 27, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 27,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 6, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 28,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 25, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 29,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 5, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 30,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 17, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 31,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 16, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 32,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 54, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 33,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 55, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 34,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 56, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 35,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 229, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 36,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ToLayer { layer_id: 2 })"
+          }
+        },
+        {
+          "position": 37,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ToLayer { layer_id: 3 })"
+          }
+        },
+        {
+          "position": 38,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 187, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 39,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 40, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 40,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 44, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 41,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 42, modifiers: 0 }))"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Layer 1",
+      "index": 1,
+      "bindings": [
+        {
+          "position": 0,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 1,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 2,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 3,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 45, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 4,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 46, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 5,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 6,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 7,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 182, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 8,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 183, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 9,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 183, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 10,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 11,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 12,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 13,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 14,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 15,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 49, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 16,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 199, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 17,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 18,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 19,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 38, modifiers: 2 }))"
+          }
+        },
+        {
+          "position": 20,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 39, modifiers: 2 }))"
+          }
+        },
+        {
+          "position": 21,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 39, modifiers: 2 }))"
+          }
+        },
+        {
+          "position": 22,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 23,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 24,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 25,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 26,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 27,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 28,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 29,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 30,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 31,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 32,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 33,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 34,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 35,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 36,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 37,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 38,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 39,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 40,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 41,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Layer 2",
+      "index": 2,
+      "bindings": [
+        {
+          "position": 0,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Bluetooth { command: 3, value: 0 })"
+          }
+        },
+        {
+          "position": 1,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Bluetooth { command: 3, value: 1 })"
+          }
+        },
+        {
+          "position": 2,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Bluetooth { command: 3, value: 2 })"
+          }
+        },
+        {
+          "position": 3,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Bluetooth { command: 3, value: 3 })"
+          }
+        },
+        {
+          "position": 4,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Bluetooth { command: 3, value: 4 })"
+          }
+        },
+        {
+          "position": 5,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Bluetooth { command: 4, value: 0 })"
+          }
+        },
+        {
+          "position": 6,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 75, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 7,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 8,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 9,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 10,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 11,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 128, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 12,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 13,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 14,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 15,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 16,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 17,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 18,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 80, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 19,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 81, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 20,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 82, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 21,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 79, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 22,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 23,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 129, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 24,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ToLayer { layer_id: 3 })"
+          }
+        },
+        {
+          "position": 25,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(StudioUnlock)"
+          }
+        },
+        {
+          "position": 26,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 27,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 28,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 29,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 30,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 78, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 31,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 32,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 33,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 34,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 35,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 127, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 36,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ToLayer { layer_id: 0 })"
+          }
+        },
+        {
+          "position": 37,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(MouseKeyPress { value: 1 })"
+          }
+        },
+        {
+          "position": 38,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(MouseKeyPress { value: 2 })"
+          }
+        },
+        {
+          "position": 39,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 74, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 40,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 77, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 41,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Layer 3",
+      "index": 3,
+      "bindings": [
+        {
+          "position": 0,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 41, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 1,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 2,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 64, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 3,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 65, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 4,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 66, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 5,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 67, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 6,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 7,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 95, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 8,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 96, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 9,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 97, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 10,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 85, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 11,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 103, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 12,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 43, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 13,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 14,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 61, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 15,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 62, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 16,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 63, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 17,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 68, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 18,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 19,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 92, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 20,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 93, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 21,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 94, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 22,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 87, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 23,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 86, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 24,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 25,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 26,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 58, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 27,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 59, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 28,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 60, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 29,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 69, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 30,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 31,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 89, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 32,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 90, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 33,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 91, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 34,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 99, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 35,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 84, modifiers: 0 }))"
+          }
+        },
+        {
+          "position": 36,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 37,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(ToLayer { layer_id: 0 })"
+          }
+        },
+        {
+          "position": 38,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 39,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 40,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(Transparent)"
+          }
+        },
+        {
+          "position": 41,
+          "behavior": {
+            "type": "Behavior",
+            "raw": "Behavior(KeyPress(HidUsage { page: 7, id: 98, modifiers: 0 }))"
+          }
+        }
+      ]
+    }
+  ]
+}
