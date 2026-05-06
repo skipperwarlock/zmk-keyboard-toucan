@@ -117,4 +117,15 @@
             >;
         };
     };
+
+    no_scroll_listener: no_scroll_listener {
+        compatible = "zmk,input-listener";
+        device = <&glidepoint_split>;
+
+        layers = <2>;   // ONLY layer 2 = normal mouse
+
+        input-processors = <
+            &zip_xy_scaler 250 100
+        >;
+    };
 };
