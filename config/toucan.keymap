@@ -26,15 +26,15 @@
                 &kp ESC                &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                    &kp Y                  &kp U                  &kp I                  &kp O                  &kp P                  &mt ESC BSLH
                 &kp TAB                &mt LGUI A             &mt LALT S             &mt LSHFT D            &mt LCTRL F            &kp G                    &kp H                  &mt RCTRL J            &mt RSHFT K            &mt RALT L             &lt 1 SEMI             &kp SQT
                 &kp LSHFT              &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                    &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp FSLH               &kp RSHFT
-                &to 2                  &to 3                  &kp C_AL_EMAIL           &kp RET                &kp SPACE              &kp BSPC
+                &to 2                  &to 3                  &trans                   &kp RET                &kp SPACE              &kp BSPC
             >;
         };
 
         layer_1 {
             display-name = "Layer 1";
             bindings = <
-                &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &trans                   &trans                 &kp C_AL_CALC          &kp C_AL_FILES         &kp C_AL_FILES         &trans                 &trans
-                &trans                 &trans                 &trans                 &kp BSLH               &kp C_AL_LOCK          &trans                   &trans                 &kp N9                 &kp N0                 &kp N0                 &trans                 &trans
+                &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &trans                   &trans                 &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &kp BSLH               &trans                 &trans                   &trans                 &kp N9                 &kp N0                 &kp N0                 &trans                 &trans
                 &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &trans                 &trans                 &trans                 &trans                 &trans
                 &trans                 &trans                 &trans                   &trans                 &trans                 &trans
             >;
