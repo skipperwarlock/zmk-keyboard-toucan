@@ -79,10 +79,10 @@
         layer_1 {
             display-name = "DEV";
             bindings = <
-                &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &trans                   &LPAR                 &kp LBKT               &kp UP                 &kp RBKT               &trans                 &trans
-                &trans                 &kp LSHFT              &trans                 &kp LS(BSLH)           &kp LS(N7)             &trans                   &RPAR                 &kp LEFT              &kp DOWN                &kp RIGHT                 &trans                 &trans
-                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                &trans               &trans                &trans                 &trans                 &trans
-                &trans                 &trans                 &trans                 &kp HOME               &kp END                &trans
+                &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &trans                   &kp LPAR               &kp LBKT               &kp UP                 &kp RBKT               &trans                 &trans
+                &trans                 &kp LSHFT              &trans                 &kp LS(BSLH)           &kp LS(N7)             &trans                   &kp RPAR               &kp LEFT               &kp DOWN               &kp RIGHT              &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                   &kp HOME               &kp END                &trans
             >;
         };
 
