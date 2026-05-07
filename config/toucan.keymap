@@ -185,7 +185,7 @@
             display-name = "NUM";
             bindings = <
                 &kp ESC                &trans                 &kp F7                 &kp F8                 &kp F9                 &kp F10                  &kp PG_UP              &kp N7                 &kp N8                 &kp N9                 &kp STAR               &kp EQUAL
-                &kp TAB                &trans                 &mt LALT F4            &mt LSHFT F5           &mt LCTRL F6           &kp F11                  &kp PG_DOWN		   &kp N4                 &kp N5                 &kp N6                 &kp PLUS               &kp MINUS
+                &kp TAB                &trans                 &mt LALT F4            &mt LSHFT F5           &mt LCTRL F6           &kp F11                  &kp PG_DN              &kp N4                 &kp N5                 &kp N6                 &kp PLUS               &kp MINUS
                 &trans                 &trans                 &kp F1                 &kp F2                 &kp F3                 &kp F12                  &trans                 &kp N1                 &kp N2                 &kp N3                 &kp DOT                &kp FSLH
                 &trans                 &to 0                  &trans                 &trans                 &trans                 &kp N0
             >;
