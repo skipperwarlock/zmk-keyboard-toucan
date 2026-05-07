@@ -22,35 +22,31 @@
         };
 
         bt0: bt0 {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&bt0_clr>, <&bt0_sel>;
+            bindings = <&bt0_sel>, <&bt0_clr>;
         };
 
         bt1: bt1 {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&bt1_clr>, <&bt1_sel>;
+            bindings = <&bt1_sel>, <&bt1_clr>;
         };
 
         bt2: bt2 {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&bt2_clr>, <&bt2_sel>;
+            bindings = <&bt2_sel>, <&bt2_clr>;
         };
 
         bt3: bt3 {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&bt3_clr>, <&bt3_sel>;
+            bindings = <&bt3_sel>, <&bt3_clr>;
         };
 
         td_shift_caps: td_shift_caps {
