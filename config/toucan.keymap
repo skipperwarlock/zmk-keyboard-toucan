@@ -21,12 +21,36 @@
             bindings = <&kp>, <&kp>;
         };
 
-        bt_hold_tap: bt_hold_tap {
+        bt0: bt0 {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
+            #binding-cells = <0>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&bt_clear_profile>, <&bt>;
+            bindings = <&bt0_clr>, <&bt0_sel>;
+        };
+
+        bt1: bt1 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <0>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&bt1_clr>, <&bt1_sel>;
+        };
+
+        bt2: bt2 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <0>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&bt2_clr>, <&bt2_sel>;
+        };
+
+        bt3: bt3 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <0>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&bt3_clr>, <&bt3_sel>;
         };
 
         td_shift_caps: td_shift_caps {
@@ -52,14 +76,52 @@
     };
 
     macros {
-        bt_clear_profile: bt_clear_profile {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings
-                = <&macro_param_1to1>
-                , <&bt BT_SEL MACRO_PLACEHOLDER>
-                , <&bt BT_CLR>
-                ;
+        bt0_sel: bt0_sel {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0>;
+        };
+        
+        bt0_clr: bt0_clr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0>, <&bt BT_CLR>;
+        };
+
+        bt1_sel: bt1_sel {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1>;
+        };
+        
+        bt1_clr: bt1_clr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1>, <&bt BT_CLR>;
+        };
+
+        bt2_sel: bt2_sel {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2>;
+        };
+        
+        bt2_clr: bt2_clr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2>, <&bt BT_CLR>;
+        };
+
+        bt3_sel: bt3_sel {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3>;
+        };
+        
+        bt3_clr: bt3_clr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3>, <&bt BT_CLR>;
         };
     };
 
@@ -89,7 +151,7 @@
         layer_2 {
             display-name = "NAV";
             bindings = <
-                &bt_hold_tap 0 BT_SEL 0  &bt_hold_tap 1 BT_SEL 1  &bt_hold_tap 2 BT_SEL 2  &bt_hold_tap 3 BT_SEL 3  &none                  &bt BT_CLR               &kp PG_UP              &trans                 &trans                 &trans                 &trans                 &kp C_VOL_UP
+                &bt0                   &bt1                   &bt2                   &bt3                   &none                  &bt BT_CLR               &kp PG_UP              &trans                 &trans                 &trans                 &trans                 &kp C_VOL_UP
                 &trans                 &trans                 &kp LALT               &kp LSHFT              &kp LCTRL              &trans                   &kp LEFT               &kp DOWN               &kp UP                 &kp RIGHT              &trans                 &kp C_VOL_DN
                 &to 3                  &studio_unlock         &trans                 &trans                 &trans                 &trans                   &kp PG_DN              &trans                 &trans                 &trans                 &trans                 &kp C_MUTE
                 &to 0                  &mkp LCLK              &mkp RCLK                &kp HOME               &kp END                &trans
