@@ -138,7 +138,7 @@
             display-name = "DEV";
             bindings = <
                 &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &trans                   &kp LPAR               &kp LBKT               &kp UP                 &kp RBKT               &trans                 &trans
-                &trans                 &kp LSHFT              &kp LS(N1)             &kp LS(BSLH)           &kp LS(N7)             &trans                   &kp RPAR               &kp LEFT               &kp DOWN               &kp RIGHT              &trans                 &trans
+                &trans                 &kp LSHFT              &kp EXCL               &kp LS(BSLH)             &kp AMPS             &trans                   &kp RPAR               &kp LEFT               &kp DOWN               &kp RIGHT              &trans                 &trans
                 &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &trans                 &trans                 &trans                 &trans                 &trans
                 &trans                 &trans                 &trans                   &kp HOME               &kp END                &trans
             >;
@@ -157,8 +157,8 @@
         layer_3 {
             display-name = "NUM";
             bindings = <
-                &kp ESC                &trans                 &kp F7                 &kp F8                 &kp F9                 &kp F10                  &kp GRAVE              &kp N7                 &kp N8                 &kp N9                 &kp STAR               &kp EQUAL
-                &kp TAB                &trans                 &mt LALT F4            &mt LSHFT F5           &mt LCTRL F6           &kp F11                  &trans                 &kp N4                 &kp N5                 &kp N6                 &kp PLUS               &kp MINUS
+                &kp ESC                &trans                 &kp F7                 &kp F8                 &kp F9                 &kp F10                  &kp PG_UP              &kp N7                 &kp N8                 &kp N9                 &kp STAR               &kp EQUAL
+                &kp TAB                &trans                 &mt LALT F4            &mt LSHFT F5           &mt LCTRL F6           &kp F11                  &kp PG_DOWN		   &kp N4                 &kp N5                 &kp N6                 &kp PLUS               &kp MINUS
                 &trans                 &trans                 &kp F1                 &kp F2                 &kp F3                 &kp F12                  &trans                 &kp N1                 &kp N2                 &kp N3                 &kp DOT                &kp FSLH
                 &trans                 &to 0                  &trans                 &trans                 &trans                 &kp N0
             >;
@@ -167,10 +167,10 @@
         layer_4 {
             display-name = "SYM";
             bindings = <
-                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &kp AMPS               &kp STAR               &kp LPAR               &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &kp GRAVE              &kp AMPS               &kp STAR               &kp LPAR               &kp RPAR                 &trans
                 &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &kp DLLR               &kp PRCNT              &kp CARET              &trans                 &trans
                 &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &kp EXCL               &kp AT                 &kp HASH               &trans                 &trans
-                &trans                 &trans                 &trans                   &trans                 &trans                 &kp RPAR
+                &trans                 &trans                 &trans                   &trans                 &trans                 &trans 
             >;
         };
     };
