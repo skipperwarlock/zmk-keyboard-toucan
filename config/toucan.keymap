@@ -21,6 +21,16 @@
             bindings = <&kp>, <&kp>;
         };
 
+        mt_fast: mod_tap_fast {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <100>;
+            require-prior-idle-ms = <0>;
+            bindings = <&kp>, <&kp>;
+        };
+
         bt0: bt0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -144,7 +154,7 @@
         layer_0 {
             display-name = "BASE";
             bindings = <
-                &kp GRAVE 	       &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                    &mt DEL Y                  &kp U                  &kp I                  &kp O                  &kp P                  &mt ESC BSLH
+                &kp GRAVE 	       &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                    &mt DEL Y                  &kp U                  &kp I                  &kp O                  &kp P                  &mt_fast ESC BSLH
                 &kp TAB                &mt LGUI A             &mt LALT S             &mt LSHFT D            &mt LCTRL F            &kp G                    &kp H                  &mt RCTRL J            &mt RSHFT K            &mt RALT L             &lt 1 SEMI             &kp SQT
                 &td_shift_caps         &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                    &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp FSLH               &kp RSHFT
                 &sym_nav 4 0           &td_num                &kp BSPC                 &kp RET                &kp SPACE              &kp DEL
