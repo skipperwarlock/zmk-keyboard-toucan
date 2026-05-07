@@ -35,6 +35,20 @@
             tapping-term-ms = <200>;
             bindings = <&kp LSHFT>, <&kp CAPS>;
         };
+
+        td_nav: td_nav {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&mo 2>, <&to 2>;
+        };
+
+        td_num: td_num {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&mo 3>, <&to 3>;
+        };
     };
 
     macros {
@@ -58,7 +72,7 @@
                 &kp GRAVE 	       &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                    &kp Y                  &kp U                  &kp I                  &kp O                  &kp P                  &mt ESC BSLH
                 &kp TAB                &mt LGUI A             &mt LALT S             &mt LSHFT D            &mt LCTRL F            &kp G                    &kp H                  &mt RCTRL J            &mt RSHFT K            &mt RALT L             &lt 1 SEMI             &kp SQT
                 &td_shift_caps         &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                    &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp FSLH               &kp RSHFT
-                &to 2                  &to 3                  &kp BSPC                 &kp RET                &kp SPACE              &kp DEL
+                &td_nav                &td_num                &kp BSPC                 &kp RET                &kp SPACE              &kp DEL
             >;
         };
 
