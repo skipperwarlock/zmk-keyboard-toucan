@@ -66,6 +66,13 @@
             bindings = <&kp LSHFT>, <&kp CAPS>;
         };
 
+        td_shift_gui: td_shift_gui {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHFT>, <&kp LGUI>;
+        };
+
         td_nav: td_nav {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -165,7 +172,7 @@
             display-name = "DEV";
             bindings = <
                 &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &kp LS(COMMA)            &kp LPAR               &kp LBKT               &kp UP                 &kp RBKT               &trans                 &trans
-                &kp LGUI               &kp LSHFT              &mt LALT EXCL          &mt LSHFT LS(BSLH)     &mt LCTRL AMPS         &kp LS(DOT)              &kp RPAR               &kp LEFT               &kp DOWN               &kp RIGHT              &trans                 &trans
+                &trans                 &td_shift_gui          &mt LALT EXCL          &mt LSHFT LS(BSLH)     &mt LCTRL AMPS         &kp LS(DOT)              &kp RPAR               &kp LEFT               &kp DOWN               &kp RIGHT              &trans                 &trans
                 &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &trans                 &trans                 &trans                 &trans                 &trans
                 &trans                 &mkp LCLK              &mkp RCLK              &kp HOME               &kp END                &none
             >;
@@ -184,9 +191,9 @@
         layer_3 {
             display-name = "NUM";
             bindings = <
-                &kp ESC                &trans                 &kp F7                 &kp F8                 &kp F9                 &kp F10                  &kp PG_UP              &kp N7                 &kp N8                 &kp N9                 &kp STAR               &kp EQUAL
-                &kp TAB                &trans                 &mt LALT F4            &mt LSHFT F5           &mt LCTRL F6           &kp F11                  &kp PG_DN              &mt RALT N4            &mt RSHFT N5           &mt RCTRL N6           &kp PLUS                &kp MINUS
-                &trans                 &trans                 &kp F1                 &kp F2                 &kp F3                 &kp F12                  &trans                 &kp N1                 &kp N2                 &kp N3                 &kp DOT                &kp FSLH
+                &kp ESC                &none                 &kp F7                 &kp F8                 &kp F9                 &kp F10                  &none               &kp N7                 &kp N8                 &kp N9                 &kp STAR               &kp EQUAL
+                &kp TAB                &none                 &mt LALT F4            &mt LSHFT F5           &mt LCTRL F6           &kp F11                  &none               &mt RALT N4            &mt RSHFT N5           &mt RCTRL N6           &kp PLUS                &kp MINUS
+                &trans                 &none                 &kp F1                 &kp F2                 &kp F3                 &kp F12                  &none               &kp N1                 &kp N2                 &kp N3                 &kp DOT                &kp FSLH
                 &trans                 &to 0                  &trans                 &trans                 &trans                 &kp N0
             >;
         };
