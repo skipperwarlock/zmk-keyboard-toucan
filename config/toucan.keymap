@@ -166,6 +166,20 @@
             bindings = <&kp LC(C)>;
             layers = <0>;
         };
+
+        combo_cv_paste {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&kp LC(P)>;
+            layers = <0>;
+        };
+
+        combo_xv_cut {
+            timeout-ms = <50>;
+            key-positions = <26 28>;
+            bindings = <&kp LC(X)>;
+            layers = <0>;
+        };
     };
 
     keymap {
