@@ -155,6 +155,19 @@
         };
     };
 
+    // Combos use key-positions = 0-based slot index in each layer's bindings (same order as
+    // boards/shields/toucan/toucan.dtsi default_transform). BASE layer_0 row 3: 24 caps, 25 Z, 26 X, 27 C, ...
+    combos {
+        compatible = "zmk,combos";
+
+        combo_xc_copy {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp LC(C)>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
