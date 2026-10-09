@@ -237,7 +237,7 @@
                 &trans                 &trans                 &trans                 &kp MINUS              &kp EQUAL              &kp LS(COMMA)            &kp LPAR               &kp LBKT               &kp UP                 &kp RBKT               &trans                 &trans
                 &trans                 &td_shift_gui          &mt LALT EXCL          &mt LSHFT LS(BSLH)     &mt LCTRL AMPS         &kp LS(DOT)              &kp RPAR               &kp LEFT               &kp DOWN               &kp RIGHT              &trans                 &trans
                 &trans                 &trans                 &trans                 &trans                 &trans                 &trans                   &trans                 &trans                 &trans                 &trans                 &trans                 &trans
-                &trans                 &mkp LCLK              &mkp RCLK              &kp HOME               &kp END                &none
+                &kp PG_UP              &mkp LCLK              &mkp RCLK              &kp HOME               &kp END                &kp PG_DN
             >;
         };
 
